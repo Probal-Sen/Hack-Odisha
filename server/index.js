@@ -14,7 +14,7 @@ console.log('Port:', process.env.PORT);
 // CORS configuration
 const frontendEnv = process.env.FRONTEND_URL;
 const allowAllOrigins = !frontendEnv;
-const allowedOrigins = (frontendEnv || 'https://food-bridge-new.vercel.app')
+const allowedOrigins = (frontendEnv || 'https://hack-odisha-silk.vercel.app')
   .split(',')
   .map(origin => origin.trim())
   .filter(Boolean);
